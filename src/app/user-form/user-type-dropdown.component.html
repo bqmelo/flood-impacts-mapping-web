@@ -1,0 +1,3 @@
+<select (change)="onUserTypeSelected($event)">
+  <option *ngFor="let userType of userTypes" [value]="userType.idTipoUsuario">{{ userType.descricao }}</option>
+</select>
